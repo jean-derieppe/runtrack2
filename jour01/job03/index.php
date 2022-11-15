@@ -1,11 +1,3 @@
-<?php
-
-$entier = 10
-
-$float = 1.5
-
-$string = 'mots'
-
 <!doctype html>
 <html lang="fr">
 <head>
@@ -15,23 +7,34 @@ $string = 'mots'
   <script src="script.js"></script>
 </head>
 <body>
+    
+<?php
+
+$entier = 10;
+
+$flot = 1.5;
+
+$string = 'mots';
+?>
 
     <table>
     <tr>
-        <th>Company</th>
-        <th>Contact</th>
-        <th>Country</th>
+        <th>entier</th>
+        <th>flot</th>
+        <th>string</th>
     </tr>
+    
     <tr>
         <td>Alfreds Futterkiste</td>
         <td>Maria Anders</td>
         <td>Germany</td>
     </tr>
     <tr>
-        <td>Centro comercial Moctezuma</td>
+        <td>Centro Moctezuma</td>
         <td>Francisco Chang</td>
+        <td>Mexico</td>
         <td>Mexico</td>
     </tr>
     </table>
-    
+
 
