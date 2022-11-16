@@ -11,3 +11,5 @@ for ($n=0 ; $n<=100 ; $n++){
     }
 }
 ?>
+
+les chiffres de 0 à 20 sont en double régler probléme 
