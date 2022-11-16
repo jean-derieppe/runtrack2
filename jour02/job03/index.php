@@ -9,8 +9,5 @@ for ($n=0 ; $n<=100 ; $n++){
     else if($n >= 25 && $n <= 50){
         echo "<u>$n</u>" . "<br>" ;
     }
-    else {
-    echo $n . "<br>";
-    }
 }
 ?>
