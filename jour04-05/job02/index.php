@@ -1,8 +1,4 @@
 <?php
 
-/*Commentaire 1 
-
-*/
-
-// Commentaire 2  
+afficher tableau html et argument $_get et les valeurs associées 
 ?>

@@ -8,9 +8,16 @@
     text-align: center;
 }
 
-.h1{
+body{
+    background-color: rgb(226, 165, 43);}
+
+h1{
     width: 80%;
     margin: 50px;
+}
+
+.input {
+    margin-top: 20px;
 }
 
 .form{
@@ -18,7 +25,7 @@
 }
 
 #case{
-    background-color: rgb(155, 25, 195);
+    background-color: rgb(58, 218, 80);
     padding: 25px;
     justify-content: center;
 }
