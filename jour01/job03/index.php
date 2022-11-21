@@ -1,40 +1,24 @@
-<!doctype html>
-<html lang="fr">
-<head>
-  <meta charset="utf-8">
-  <title>Titre de la page</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="script.js"></script>
-</head>
-<body>
-    
+
 <?php
+$nom=["boolean", "int", "floats", "string"] ;
+$type=["bool", "int", "floats", "str"];
+$val=["true", "1", "1,1", "abc"];
 
-$entier = 10;
-
-$flot = 1.5;
-
-$string = 'mots';
-?>
-
-    <table>
-    <tr>
-        <th>entier</th>
-        <th>flot</th>
-        <th>string</th>
-    </tr>
-    
-    <tr>
-        <td>Alfreds Futterkiste</td>
-        <td>Maria Anders</td>
-        <td>Germany</td>
-    </tr>
-    <tr>
-        <td>Centro Moctezuma</td>
-        <td>Francisco Chang</td>
-        <td>Mexico</td>
-        <td>Mexico</td>
-    </tr>
-    </table>
-
-
+<table border="1">
+<tr>
+   <td><?php echo $nom[0]?></td>
+   <td><?php echo $nom[1]?></td>
+   <td><?php echo $nom[2]?></td>
+   <td><?php echo $nom[3]?></td>
+</tr>
+<tr>
+   <td><?php echo $type[0]?></td>
+   <td><?php echo $type[1]?></td>
+   <td><?php echo $type[2]?></td>
+   <td><?php echo $type[3]?></td>
+</tr>
+<tr>
+   <td><?php echo $val[0]?></td>
+   <td><?php echo $val[1]?></td>
+   <td><?php echo $val[2]?></td>
+   <td><?php echo $val[3]?></td>
