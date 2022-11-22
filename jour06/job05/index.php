@@ -37,7 +37,7 @@ if (isset($_GET["style"])){
     la couleur du background, la police ed'écriture et plus encore     //  -->
     <div class="form">
         <form action="" method="get">
-        <label for="case-select">Select a style :</label>
+        <label for="case-select">Choose a style :</label>
         <select name="style" id="case">
         <option value="style1">style1</option>
         <option value="style2">style2</option>

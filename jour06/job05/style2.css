@@ -1,11 +1,11 @@
 *{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: smaller;
-    background-color: rgb(35, 215, 35);
-    display: flex;
+    font-size: larger;
+
 }
 body{
     display: flex;
+
   justify-content: center;
   background-color: rgb(230, 192, 25);
 }

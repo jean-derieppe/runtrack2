@@ -1,6 +1,7 @@
 <?php
-$str = "je mange des chips le midi",
+$str ;
 leetSpeak($str){
 
+    if ('A' or 'a')
 }
 ?>

@@ -16,19 +16,6 @@ h1{
     margin: 50px;
 }
 
-.input {
-    margin-top: 20px;
-}
-
-.form{
-    width: 80%;
-    text-align: center ;
-}
-
-.input{
-    background-color: red;
-}
-
 #case{
     background-color: rgb(58, 218, 80);
     padding: 25px;

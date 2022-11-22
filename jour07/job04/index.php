@@ -1,26 +1,32 @@
 <?php
-
-function calcule(int $a,string $operation, int $b){
-// switch va enchainer les fontions //
-switch ($operation){
-    case '+' :
-        $result = $a + $b;
-        return $result;
-        break;
-    case '-' :
-        $result = $a - $b;
-        break;
-    case '*' :
-        $result = $a * $b;
-        break;
-    case '/' :
-        $result = $a / $b;
-        break;
-    case '%' :
-        $result = $a % $b;
-        break;
-    }   
+$a = 10;
+$b = 6;
+$operation="+";
+function calcul($a, $operation, $b){
+    // switch va enchainer "fontions" //
+    switch ($operation){
+        case '+' :
+            $result = $a + $b;
+            break;
+        case '-' :
+            $result = $a - $b;
+            break;
+        case '*' :
+            $result = $a * $b;
+            break;
+        case '/' :
+            $result = $a / $b;
+            break;
+        case '%' :
+            $result = $a % $b;
+            break;
+        default:
+            echo "Erreur";
+            break;
+        }   
+    return $result;
+ 
 }
-// nombre aléatoire pour tester les opérations //
-calcule(5, "+", 4)
+
+echo calcul($a, $operation, $b)
 ?>
