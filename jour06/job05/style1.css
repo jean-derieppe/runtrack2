@@ -22,10 +22,13 @@ h1{
 
 .form{
     width: 80%;
+    text-align: center ;
 }
+
 
 #case{
     background-color: rgb(58, 218, 80);
     padding: 25px;
     justify-content: center;
+    text-align: center;
 }
