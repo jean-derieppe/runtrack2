@@ -25,6 +25,9 @@ h1{
     text-align: center ;
 }
 
+.input{
+    background-color: red;
+}
 
 #case{
     background-color: rgb(58, 218, 80);
