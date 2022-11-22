@@ -13,5 +13,6 @@ function occurences($str,$char){
     }
     echo $count;
 }
-
+// la fonction retourne le nombre d'occurence trouvé dans $str par  $char . // 
+occurences($str, $char)
 ?>
