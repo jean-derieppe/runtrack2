@@ -11,12 +11,17 @@ body {
   
   body div {
     width: 90%;
-    background-color: #e7e7e7;
+    background-color: #4bd03f;
     border: 1px solid #000000;
     border-radius: 10px;
     padding: 10px;
   }
   
+body{
+    display: flex;
+  justify-content: center;
+}
+
   /* style pour le formulaire */
   form {
     width: 100%;
@@ -26,11 +31,11 @@ body {
   
   #button {
     border-radius: 10px;
-    background-color: #ffffff;
+    background-color: #4876b7;
     transition: 0.5s;
   }
   
   #button:hover {
-    background-color: #e7e7e7;
+    background-color: #de2626;
     border-color: #ffffff;
   }

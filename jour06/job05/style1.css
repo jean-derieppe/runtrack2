@@ -35,3 +35,7 @@ h1{
     justify-content: center;
     text-align: center;
 }
+body{
+    display: flex;
+  justify-content: center;
+}
