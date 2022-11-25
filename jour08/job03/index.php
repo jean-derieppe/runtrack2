@@ -5,7 +5,7 @@
 // bouton input qui réinitialise le $_POST //
 
 
-// faire un input pour entrer un prénom qui le retranscrit //
+0// faire un input pour entrer un prénom qui le retranscrit //
 
 =======
 // envoyer un $_post dans une $_ session ( plusieur entrée ? )
