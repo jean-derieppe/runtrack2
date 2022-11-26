@@ -1,20 +1,53 @@
 <?php
-<<<<<<< HEAD
-<<<<<<< HEAD
-// envoyer un $_post dans une $_ session ( plusieur entrée ? ) 
-// bouton input qui réinitialise le $_POST //
-
-
-0// faire un input pour entrer un prénom qui le retranscrit //
-
-=======
-// envoyer un $_post dans une $_ session ( plusieur entrée ? )
-// bouton input qui réinitialise le $_POST //
-
->>>>>>> 7a68e0bef31d880700bf764bf14f5b7c4bd81e3b
-=======
-// envoyer un $_post dans une $_ session ( plusieur entrée ? )
-// bouton input qui réinitialise le $_POST //
-
->>>>>>> 7a68e0bef31d880700bf764bf14f5b7c4bd81e3b
+session_start();
 ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Jour08 Job03</h1>
+    
+    <form action="" method="post">
+    <input type="text" name="prenom" placeholder="Entrez votre prénom">
+    <input type="submit" value="Envoyer">
+    </form>
+</body>
+</html>
+
+    <?php
+        if (isset($_POST['prenom'])) {
+            $_SESSION['prenom'][] = $_POST['prenom'];
+        }
+
+    ?>
+
+    <ul>
+        <?php
+            if (isset($_SESSION['prenom'])) {
+                foreach ($_SESSION['prenom'] as $index => $value) {
+                    echo '<li>' . $value . '</li>';
+                } 
+            }
+        ?>
+    </ul>
+    <form action="" method="post">
+        <br>
+        <br>
+        <label for="reset">Effacez la liste de prénom :</label><br>
+        <input type='submit' value='reset' name='reset'>
+        <br>
+        <br>
+    </form>
+
+    <?php
+    //reset
+    if (isset($_POST['reset'])) {
+        unset($_SESSION['prenom']);
+    }
+
+    ?>
