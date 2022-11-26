@@ -7,11 +7,9 @@ $request = $mysqli -> query ("SELECT`prenom`, `nom`, `naissance` FROM `etudiants
 //$resultat_all = $request -> fetch_all();
 //var_dump($resultat_all)
 
-
-
- while (($resultat_array = $request -> fetch_array()) != null){
-     var_dump($resultat_array);
-}
+//while (($resultat_array = $request -> fetch_array()) != null){
+//     var_dump($resultat_array);
+//}
 ?>
 
 <!DOCTYPE html>
@@ -36,16 +34,18 @@ $request = $mysqli -> query ("SELECT`prenom`, `nom`, `naissance` FROM `etudiants
     <table>
         <thead>
             <tr>
+                <th>Prénom</th>
                 <th>Nom</th>
-                <th>Capacité</th>
+                <th>Naissance</th>
             </tr>
         </thead>
         <tbody>
             <?php
             while (($resultat = $request -> fetch_array()) != null){
                 echo "<tr>";
+                echo "<td>".$resultat['prenom']."</td>";
                 echo "<td>".$resultat['nom']."</td>";
-                echo "<td>".$resultat['capacite']."</td>";
+                echo "<td>".$resultat['naissance']."</td>";
                 echo "</tr>";
                 }
             ?>
@@ -53,4 +53,4 @@ $request = $mysqli -> query ("SELECT`prenom`, `nom`, `naissance` FROM `etudiants
     </table>
     
 </body>
-</html>         
+</html>
