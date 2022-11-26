@@ -10,7 +10,7 @@ $request = $mysqli -> query ("select sum(`superficie`) from etage");
 //var_dump($resultat_all);
 
 
-// Afficher la valeur des ( colonnes ? ) Superficie
+// Afficher la somme des ( colonnes ? ) Superficie
 //while (($resultat_array = $request -> fetch_array()) != null){
 //     var_dump($resultat_array);
 //}

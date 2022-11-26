@@ -7,9 +7,10 @@ $request = $mysqli -> query ("SELECT `id`, `prenom`, `nom`, `naissance`, `sexe`,
 //$resultat_all = $request -> fetch_all();
 //var_dump($resultat_all);
 
-while (($resultat_array = $request -> fetch_array()) != null){
-     var_dump($resultat_array);
-}
+//while (($resultat_array = $request -> fetch_array()) != null){
+//     var_dump($resultat_array);
+//}
+  //     echo $result_array[1];
 
 ?>
 
