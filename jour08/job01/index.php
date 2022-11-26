@@ -12,9 +12,23 @@ echo ' la page a été visité <b>' . $_SESSION['nbvisites'] . '</b> fois';
 ?>
 
 <!-- HTML -->
-<label>
-<form method="post">
-<label for="reset">Remettre à zéro le compteur de visite :</label><br>
-<input type="submit" name="reset" value="Reset"> 
-</form>
-</label>
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+
+    <body>
+    
+        <label>
+        <form method="post">
+        <label for="reset">Remettre à zéro le compteur de visite :</label><br>
+        <input type="submit" name="reset" value="Reset"> 
+        </form>
+        </label>
+    </body>
+
+</html>
